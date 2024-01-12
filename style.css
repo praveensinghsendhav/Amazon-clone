@@ -1,7 +1,7 @@
 *{
     margin: 0; 
     font-family: Arial; 
-    border:border-box;
+    box-sizing:border-box;
 } 
 .navbar{
  height: 60px; 
@@ -336,6 +336,112 @@ span{
     color: #f3f3f3; 
     display: flex;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
     font-size: 0.90rem;
 } 
+.button{
+    position: absolute;  
+    display: flex; 
+    justify-content: space-between;
+    top: 20px;  
+    width: 100%;
+}
+.button i{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100px; 
+    height: 300px; 
+    font-size: 3rem;  
+    color: #f3f3f3; 
+}  
+.Home-sec{
+    width: 100%; 
+    height: 280px; 
+    background-color:#a9b6c3;
+}
+.Home-kit{
+    width: 98.5%; 
+    height: 270px; 
+    padding: 10px 20px;  
+    background-color: white;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+.Home-kit h2{ 
+    font-size: 21px; 
+}
+.parbox{ 
+    width: 100%; 
+    height: 280px; 
+    display: flex;
+} 
+.chbox1{
+    width: 145px; 
+    height: 200px; 
+} 
+.chbox1 img{
+    width: 92px; 
+    height: 200px; 
+    margin-left:26px;
+}
+.chbox2{
+    width: 145px; 
+    height: 200px; 
+    padding-left: 23px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+} 
+.chbox2 img{ 
+    width: 59px; 
+    height: 200px; 
+    margin-left:26px;
+}
+.chbox3{
+width: 251px; 
+height: 200px; 
+} 
+.chbox3 img{
+    width: 100%; 
+    height: 100%; 
+} 
+.chbox4{
+    width:186px ; 
+    height: 200px; 
+    margin-left: 10px;
+}  
+.chbox4 img{
+    width: 100%; 
+    height: 100%;
+}
+.chbox5{
+    width: 270px; 
+    height: 200px;  
+    margin-left: 10px;
+} 
+.chbox5 img{
+    width: 270px; 
+    height: 159px; 
+    margin-top:10px; 
+} 
+.chbox6{
+    width: 200px; 
+    height: 200px; 
+    margin-left: 10px;
+} 
+.chbox6 img{
+    width: 200px; 
+    height: 200px;  
+} 
+.chbox7{
+    width: 195px; 
+    height: 200px; 
+    margin-left: 10px;
+} 
+.chbox7 img{
+    width: 195px; 
+    height: 200px; 
+} 
+.foot-panel:hover{
+    background-color: #4f5e6e;
+}
